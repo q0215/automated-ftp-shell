@@ -1,0 +1,11 @@
+open hostname
+user username password
+
+bin
+prompt
+verbose
+
+get filename
+
+bye
+
