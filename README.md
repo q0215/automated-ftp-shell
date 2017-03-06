@@ -1,14 +1,7 @@
 # automated-ftp
-シェルスクリプトによるFTPコマンドの自動化
 
-## 背景
-dropboxでHTMLとスクリプトで作成した簡易コンテンツの提供をしていましたが、
-2016/10/03よりdropboxのHTMLレンダリング機能の提供が終了するため、
-xdomainの無料HTMLサーバをレンタルし、コンテンツを移転しました。
-
-xdomainの無料HTMLサーバでは以下の制約があります。
-* FTP接続が3ヶ月間行われないと広告表示
-* スクリプトやスタイルシートによる広告非表示は規約違反
-
-上記よりFTPコマンドを自動化し、PC起動などをトリガーとして
-より簡単にFTP接続を行わせる目的で作成しています。
+* ftp.sh  
+ - $1 [required] server.  
+ - $2 [required] username.  
+ - $3 [required] password.  
+ - $4 [required] file.  
